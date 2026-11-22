@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor Ambiental ESP32</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Monitor en Tiempo Real</h1>
+        <p class="subtitle">Lecturas desde ESP32 + DHT11</p>
+
+        <div class="cards-grid">
+            <div class="card temp-card">
+                <span class="label">Temperatura</span>
+                <div class="value" id="temp-val">-- °C</div>
+                <span class="status" id="temp-status">Esperando datos...</span>
+            </div>
+
+            <div class="card hum-card">
+                <span class="label">Humedad</span>
+                <div class="value" id="hum-val">-- %</div>
+                <span class="status">Humedad relativa</span>
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
