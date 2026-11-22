@@ -8,9 +8,9 @@
 #define GREEN_LED  15
 #define DHTTYPE DHT11
 
-const char* WIFI_SSID = "INFINITUM7396";
-const char* WIFI_PASS = "GDcAXK7YbU";
-const char* FIREBASE_URL = "https://sensor-temp-c8608-default-rtdb.firebaseio.com/mediciones.json";
+const char* WIFI_SSID = "";
+const char* WIFI_PASS = "";
+const char* FIREBASE_URL = "";
 
 DHT dht(DHTPIN, DHTTYPE);
 
